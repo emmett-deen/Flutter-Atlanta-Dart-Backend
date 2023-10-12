@@ -1,5 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:flutter_atlanta_packages_example/domain/models/coffee.dart';
+import 'package:coffee_api_resources/coffee_api_resources.dart';
 import 'package:flutter_atlanta_packages_example/domain/repositories/local/favorite_repository.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
@@ -17,13 +17,13 @@ class CoffeeDetailCubit extends Cubit<CoffeeDetailState> {
     await favoriteRepository.init();
     emit(
       state.copyWith(
-        isFavorite: favoriteRepository.isFavorite(coffee.id.toString()),
+        isFavorite: favoriteRepository.isFavorite(coffee.id),
       ),
     );
   }
 
   Future<void> toggleFavorite() async {
-    final isFavorite = favoriteRepository.toggleFavorite(coffee.id.toString());
+    final isFavorite = favoriteRepository.toggleFavorite(coffee.id);
     emit(state.copyWith(isFavorite: isFavorite));
   }
 }

@@ -25,7 +25,7 @@ class CoffeeDetailView extends StatelessWidget {
         children: [
           PreviewImage(imageUrl: coffee.image),
           const SizedBox(height: 16),
-          Ingredients(ingredients: coffee.ingredients),
+          Ingredients(ingredients: coffee.ingredients.split(',')),
           const SizedBox(height: 16),
           Description(description: coffee.description),
         ],

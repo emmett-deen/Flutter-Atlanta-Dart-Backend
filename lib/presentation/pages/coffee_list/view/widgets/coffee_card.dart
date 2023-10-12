@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
+import 'package:coffee_api_resources/coffee_api_resources.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_atlanta_packages_example/domain/models/coffee.dart';
 import 'package:flutter_atlanta_packages_example/presentation/routing/routes.dart';
 import 'package:go_router/go_router.dart';
 

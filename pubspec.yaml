@@ -9,6 +9,8 @@ environment:
 dependencies:
   bloc: ^8.1.2
   cached_network_image: ^3.2.3
+  coffee_api_resources:
+    path: ./coffee_api_resources
   dartz: ^0.10.1
   flutter:
     sdk: flutter

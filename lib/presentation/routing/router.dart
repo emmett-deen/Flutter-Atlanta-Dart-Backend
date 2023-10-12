@@ -1,4 +1,4 @@
-import 'package:flutter_atlanta_packages_example/domain/models/coffee.dart';
+import 'package:coffee_api_resources/coffee_api_resources.dart';
 import 'package:flutter_atlanta_packages_example/presentation/pages/coffee_detail/coffee_detail_page.dart';
 import 'package:flutter_atlanta_packages_example/presentation/pages/coffee_list/coffee_list_page.dart';
 import 'package:flutter_atlanta_packages_example/presentation/routing/routes.dart';

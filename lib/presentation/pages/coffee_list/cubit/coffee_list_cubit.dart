@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
+import 'package:coffee_api_resources/coffee_api_resources.dart';
 import 'package:flutter_atlanta_packages_example/domain/errors/request_exception.dart';
-import 'package:flutter_atlanta_packages_example/domain/models/coffee.dart';
 import 'package:flutter_atlanta_packages_example/domain/repositories/api/coffee_repository.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

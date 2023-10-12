@@ -1,6 +1,6 @@
+import 'package:coffee_api_resources/coffee_api_resources.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_atlanta_packages_example/domain/errors/request_exception.dart';
-import 'package:flutter_atlanta_packages_example/domain/models/coffee.dart';
 import 'package:flutter_atlanta_packages_example/presentation/l10n/l10n.dart';
 import 'package:flutter_atlanta_packages_example/presentation/pages/coffee_list/cubit/coffee_list_cubit.dart';
 import 'package:flutter_atlanta_packages_example/presentation/pages/coffee_list/view/widgets/coffee_card.dart';

@@ -1,5 +1,5 @@
+import 'package:coffee_api_resources/coffee_api_resources.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_atlanta_packages_example/domain/models/coffee.dart';
 import 'package:flutter_atlanta_packages_example/domain/repositories/local/favorite_repository.dart';
 import 'package:flutter_atlanta_packages_example/presentation/pages/coffee_detail/cubit/coffee_detail_cubit.dart';
 import 'package:flutter_atlanta_packages_example/presentation/pages/coffee_detail/view/coffee_detail_view.dart';

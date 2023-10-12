@@ -1,6 +1,6 @@
 ![FATL Logo](https://secure.meetupstatic.com/photos/event/c/2/6/c/clean_501889772.webp)
-# Flutter Atlanta Packages Example
-This example was used for a talk for this meetup https://www.meetup.com/flutter-atlanta/events/294871279/
+# Flutter Atlanta Dart as Backend Example
+This example was used for a talk for this meetup https://www.meetup.com/flutter-atlanta/events/296082856/
 
 ## Getting Started 🚀
 
@@ -12,8 +12,8 @@ $ dart run build_runner build --delete-conflicting-outputs
 ### Start the local API
 ```sh
 $ cd api
-$ npm install
-$ npm run dev
+$ dart pub global activate dart_frog_cli
+$ dart_frog dev
 ```
 
 This project contains 3 flavors, currently only development is configured:
